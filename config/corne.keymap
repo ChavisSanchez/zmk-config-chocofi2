@@ -16,10 +16,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp Q             &kp W           &kp F        &kp P        &kp G      &kp N0    &kp N0  &kp J      &kp L        &kp U        &kp Y       &kp SEMI
-&mt LEFT_SHIFT A  &mt LEFT_ALT R  &mt LCTRL S  &mt LMETA T  &kp D      &kp N0    &kp N0  &kp H      &mt RMETA N  &mt RCTRL E  &mt RALT I  &mt RSHFT O
-&kp Z             &kp X           &kp C        &kp V        &kp B      &kp N0    &kp N0  &kp K      &kp M        &kp COMMA    &kp DOT     &kp SLASH
-                                               &mo 1        &kp SPACE  &none     &none   &kp ENTER  &mo 2
+&kp Q             &kp W           &kp F        &kp P         &kp G  &kp N0       &kp N0   &kp J  &kp L          &kp U        &kp Y       &kp SEMI
+&mt LEFT_SHIFT A  &mt LEFT_ALT R  &mt LCTRL S  &mt LMETA T   &kp D  &kp N0       &kp N0   &kp H  &mt RMETA N    &mt RCTRL E  &mt RALT I  &mt RSHFT O
+&kp Z             &kp X           &kp C        &kp V         &kp B  &kp N0       &kp N0   &kp K  &kp M          &kp COMMA    &kp DOT     &kp SLASH
+                                               &kp LEFT_WIN  &mo 1  &kp SPACE    &kp RET  &mo 2  &kp BACKSPACE
             >;
         };
 
@@ -31,10 +31,10 @@
             //             | GUI | LWR | SPC |   | ENT | RSE | BKSP|
 
             bindings = <
-&kp NUMBER_1    &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5         &trans    &trans  &kp NUMBER_6  &kp N7     &kp N8            &kp N9             &kp N0
-&kp TAB         &trans        &kp UP_ARROW  &trans        &kp BACKSPACE  &trans    &trans  &kp MINUS     &kp EQUAL  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH
-&kp LEFT_SHIFT  &kp LEFT      &kp DOWN      &kp RIGHT     &trans         &trans    &trans  &trans        &trans     &trans            &kp ESCAPE         &kp CAPS
-                                            &trans        &trans         &trans    &trans  &trans        &trans
+&kp NUMBER_1    &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5         &trans       &trans   &kp NUMBER_6  &kp N7     &kp N8            &kp N9             &kp N0
+&kp TAB         &trans        &kp UP_ARROW  &trans        &kp BACKSPACE  &trans       &trans   &kp MINUS     &kp EQUAL  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH
+&kp LEFT_SHIFT  &kp LEFT      &kp DOWN      &kp RIGHT     &trans         &trans       &trans   &trans        &trans     &trans            &kp SQT            &kp CAPS
+                                            &trans        &trans         &kp SPACE    &kp RET  &trans        &trans
             >;
         };
 
@@ -46,10 +46,10 @@
             //             | GUI | LWR | SPC |   | ENT | RSE | BKSP|
 
             bindings = <
-&kp EXCL           &kp AT           &kp HASH          &kp DLLR        &kp PRCNT   &trans    &trans  &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR
-&kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_PLAY_PAUSE  &kp C_PREVIOUS  &kp C_NEXT  &trans    &trans  &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH
-&kp C_BRI_DEC      &kp C_BRI_INC    &kp C_MUTE        &trans          &trans      &trans    &trans  &trans     &trans     &trans     &trans    &trans
-                                                      &trans          &trans      &trans    &trans  &trans     &trans
+&kp EXCL           &kp AT           &kp HASH          &kp DLLR        &kp PRCNT   &trans       &trans   &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR
+&kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_PLAY_PAUSE  &kp C_PREVIOUS  &kp C_NEXT  &trans       &trans   &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH
+&kp C_BRI_DEC      &kp C_BRI_INC    &kp C_MUTE        &trans          &trans      &trans       &trans   &trans     &trans     &trans     &trans    &trans
+                                                      &trans          &trans      &kp SPACE    &kp RET  &trans     &trans
             >;
         };
 
